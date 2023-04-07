@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="back"></div>
+<div class="menu">
+    <div class="timer">
+        <span class="min">1</span><p>:</p><span class="sec">00</span>
+    </div>
+    <div class="buttons">
+        <input type="button" value="Start Game!" id="startb" onclick="start()" class = "but">
+        <input type="button" value="Check result" id="check" class="but">
+        <input type="button" value="New Game" id="new" class="but">
+    </div>
+</div>
+
+    <div class="alert">
+        <hr>
+        <p class="info">You steel have time, you sure?</p> <div class="altime"><span class="time mins">00</span><span class="times">:</span><span class="time seconds"></span></div>
+        
+        <hr>
+        <div class="bs" style="margin-top: 20px;"><input type="button" value="Check" class="che">
+            <input type="button" value="Close" class="close"></div>
+    
+</div>
+    
+    <div class="container">
+        <div class="bloc"></div>
+        <div id="start"  class="num-box sortable">
+            <!-- <div id="num"  class= " num1">1</div>
+            <div id="num"  class= " num2">2</div>
+            <div id="num"  class= " num3">3</div>
+            <div id="num"  class= " num4">4</div>
+            <div id="num"  class= " num5">5</div>
+            <div id="num"  class= " num6">6</div>
+            <div id="num"  class= " num7">7</div>
+            <div id="num"  class= " num8">8</div>
+            <div id="num"  class= " num9">9</div>
+            <div id="num"  class= " num10">10</div>
+            <div id="num"  class= " num11">11</div>
+            <div id="num"  class= " num12">12</div>
+            <div id="num"  class= " num13">13</div>
+            <div id="num"  class= " num14">14</div>
+            <div id="num"  class= " num15">15</div>
+            <div id="num"  class= " num16">16</div> -->
+            
+            
+        </div>
+        <!-- <button id="new">New Game</button> -->
+        <!-- <button id="check" >check</button> -->
+        <div id="end" class="num-box">
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+            <div class="num ui-sortable"></div>
+        </div>
+        
+    </div>
+
+    
+    <script src="https://cdn.jsdelivr.net/lodash/4.17.4/lodash.min.js"></script>
+    <script src="jquery.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.13.2/jquery-ui.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
